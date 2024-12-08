@@ -70,5 +70,9 @@ public class Car {
         System.out.println(car1);
         System.out.println(car2);
         System.out.println(car3);
+
+        car3.setYear(2000);
+        System.out.println("после изменения: ");
+        System.out.println(car3);
     }
 }

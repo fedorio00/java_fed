@@ -8,10 +8,6 @@ public class Car extends Vehicle{
         super(model, license, color, year, ownerName, insuranceNumber, engineType);
         this.engineType = "Combustion";
     }
-   /* @Override
-    public void setOwnerName(){
-        this.ownerName = ownerName;
-    }*/
     @Override
     public String vehicleType() {
         return "Car";
